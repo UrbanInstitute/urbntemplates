@@ -1,0 +1,342 @@
+/*
+** full document
+*/
+h4 {
+  color: #000000;
+}
+
+h5, .h5 {
+  margin: 0;
+}
+
+a {
+  color: #1696d2;
+}
+
+a:focus, a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* eliminate padding from row class */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Eliminate padding from entire application */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  font-family: Lato;
+}
+
+/*
+** body
+*/
+
+/* plots */
+.plot-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plot-subtitle {
+  font-size: 14px;
+}
+
+.urban-logo-text {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: right;
+    margin: 0 0 0 0;
+}
+
+/* Download Data Button */
+/*.download-button {
+/*  padding: 13px 0 13px 0;
+}*/
+
+.btn,
+.btn:active {
+  background-color: #1696d2;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 17px;
+    padding-top: 17px;
+    padding-right: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
+  border-radius: 0;
+  border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+  font-size: 16px;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn:hover {
+    background: #fdbf11;
+    color: #fff !important;
+}
+
+.fa {
+  display: none;
+}
+
+.fa-download:before {
+    content: none;
+}
+
+/*
+** columns
+*/
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*
+** footer
+*/
+.footer {
+  background-color: #f1f2f2;
+}
+
+.footer-column {
+  margin: 0 20px 10px 0;
+}
+
+.credit-names {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+/*
+** radio buttons
+*/
+.shiny-input-checkboxgroup.shiny-input-container-inline label ~ .shiny-options-group, .shiny-input-radiogroup.shiny-input-container-inline label ~ .shiny-options-group {
+    margin-top: 16px;
+}
+
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/*
+** sliderInput
+*/
+
+.control-label {
+  color: #1696d2;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Lato, sans-serif !important;
+}
+
+.irs-bar {
+  border-top: 1px solid #1696d2;
+  border-bottom: 1px solid #1696d2;
+  background: #1696d2;
+}
+
+.irs-from, .irs-to, .irs-single {
+  background: #1696d2;
+}
+
+.slider-animate-button {
+  position: relative;
+  top: 10px;
+}
+
+.irs-grid-text,
+.iris-min,
+.iris-max,
+.irs-from,
+.irs-to,
+.irs-single {
+  font-size:11px;
+}
+
+.irs-grid-pol.small {
+  display: none;
+}
+
+/*
+** selectize dropdown menu
+*/
+
+.selectize-control {
+  border: black;
+	text-align: left;
+	white-space: nowrap;
+	background: url(urban-select-2x.png) no-repeat right #efefef;
+	background-size: 45px 45px;
+  margin: 0px;
+  height: 39px;
+}
+
+.selectize-input {
+  border: none;
+}
+
+.selectize-input.full {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.selectize-control.single .selectize-input.input-active input {
+  cursor: pointer;
+}
+
+.selectize-input.focus {
+    border-color: #cccccc;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.selectize-input .item {
+	width: 299px;
+	overflow: hidden;
+	position: absolute;
+  width: 299px;
+  position: relative;
+  display: inline-block;
+  top: 3.5px;
+  width: calc(100% - 33px);
+}
+
+.selectize-input.items.full.has-options.has-items {
+  height: 39px;
+}
+
+.selectize-input.items.full.has-options.has-items.focus.input-active.dropdown-active {
+  border: black;
+	text-align: left;
+	white-space: nowrap;
+	background: url(urban-select-2x.png) no-repeat right #efefef;
+	background-size: 45px 45px;
+	margin: 0px;
+	cursor: pointer;
+  width: 100%;
+}
+
+.selectize-input.items.full.has-options.has-items.focus.input-active.dropdown-active::after {
+  border-width: 0px 0px 0px 0px;
+  margin-top: 0px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.0) transparent;
+  cursor: pointer;
+}
+
+.selectize-control.single
+.selectize-input:after {
+  border-width: 0px 0px 0px 0px;
+  height: 39px;
+}
+
+.selectize-dropdown.single {
+  border-color: #c5c5c5;
+  border-radius:0px;
+}
+
+.selectize-control.single
+.selectize-input:after {
+  border-width: 0px 0px 0px 0px;
+  margin-top: 0px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.0) transparent;
+}
+
+.selectize-control.single
+.selectize-input.dropdown-active:after {
+  margin-top: 0px;
+  border-width: 0px 0px 0px 0px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.0) transparent;
+}
+
+.selectize-input,
+.selectize-control.single .selectize-input.input-active {
+  cursor: pointer;
+}
+
+.selectize-control.single .selectize-input.input-active,
+.selectize-control.single .selectize-input.input-active input {
+  cursor: pointer;
+}
+
+.selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+    border: none !important;
+    color: transparent;
+    text-shadow: 0 0 0 grey;
+}

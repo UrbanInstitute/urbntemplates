@@ -1,7 +1,7 @@
 #' use_shiny_app
 #'
+#' @md
 #' @export
-#'
 use_shiny_app <- function() {
   use_template(
     template = "app.R",
