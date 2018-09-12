@@ -1,12 +1,10 @@
-#' urbn_readme
+#' use_shiny_app
 #'
-#' @return
 #' @export
 #'
-#' @examples
-urbn_readme <- function() {
+use_shiny_app <- function() {
   use_template(
-    template = "README.md",
+    template = "app.R",
     data = list(Package = "", Version = ""),
     ignore = FALSE,
     open = TRUE,
