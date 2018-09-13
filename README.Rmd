@@ -12,6 +12,7 @@ output: github_document
 
 * `use_css()`
 * `use_iterate()`
+* `use_preamble()`
 * `use_revealjs()`
 * `use_shiny_app()`
 * `use_urbn_readme()`

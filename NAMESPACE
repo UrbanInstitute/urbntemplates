@@ -2,6 +2,7 @@
 
 export(use_css)
 export(use_iterate)
+export(use_preamble)
 export(use_revealjs)
 export(use_shiny_app)
 export(use_urbn_readme)
