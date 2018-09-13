@@ -4,7 +4,11 @@
 \alias{use_iterate}
 \title{use_iterate}
 \usage{
-use_iterate()
+use_iterate(directory = NULL)
+}
+\arguments{
+\item{directory}{A character string for the directory where the template
+should be saved.}
 }
 \description{
 \code{use_iterate} adds a template called iterate.R that is used for iterating

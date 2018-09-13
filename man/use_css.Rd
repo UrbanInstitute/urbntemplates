@@ -4,13 +4,13 @@
 \alias{use_css}
 \title{use_css}
 \usage{
-use_css(stylesheet, directory = "www/")
+use_css(stylesheet, directory = "www")
 }
 \arguments{
 \item{stylesheet}{Selection of stylesheet. Current options are \code{"shiny"}.}
 
 \item{directory}{The directory where the template should be saved and opened.
-The default "www/" is preferable for most projects. Use NULL to save the
+The default "www" is preferable for most projects. Use NULL to save the
 template to the project directory or working directory.}
 }
 \description{

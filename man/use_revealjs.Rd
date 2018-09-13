@@ -4,11 +4,13 @@
 \alias{use_revealjs}
 \title{use_revealjs}
 \usage{
-use_revealjs(name = "revealjs.Rmd")
+use_revealjs(name = "revealjs.Rmd", directory = NULL)
 }
 \arguments{
-\item{name}{A character string for the name of the created template. Use / to
-specify a subdirectory like \code{name = "docs/revealjs.Rmd"}.}
+\item{name}{A character string for the name of the created template.}
+
+\item{directory}{A character string for the directory where the template
+should be saved.}
 }
 \description{
 use_revealjs

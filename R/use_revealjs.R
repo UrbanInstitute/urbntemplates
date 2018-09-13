@@ -11,7 +11,7 @@ use_revealjs <- function(name = "revealjs.Rmd", directory = NULL) {
   if (!is.null(directory)) {
 
     usethis::use_directory(directory)
-    save_name <- paste0(directory, "/", name)
+    save_name <- paste0(directory, "/", name, ".Rmd")
 
   } else {
 

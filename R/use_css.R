@@ -4,12 +4,12 @@
 #'
 #' @param stylesheet Selection of stylesheet. Current options are `"shiny"`.
 #' @param directory The directory where the template should be saved and opened.
-#'   The default "www/" is preferable for most projects. Use NULL to save the
+#'   The default "www" is preferable for most projects. Use NULL to save the
 #'   template to the project directory or working directory.
 #'
 #' @md
 #' @export
-use_css <- function(stylesheet, directory = "www/") {
+use_css <- function(stylesheet, directory = "www") {
 
   # pick a stylesheet template
   template_name <- if (stylesheet %in% c("shiny")) {
@@ -25,17 +25,14 @@ use_css <- function(stylesheet, directory = "www/") {
   }
 
   # pick a destination directory
-  save_name <- if (is.null(directory)) {
+  if (!is.null(directory)) {
 
-    template_name
+    usethis::use_directory(directory)
+    save_name <- paste0(directory, "/", template_name)
 
   } else {
 
-    if (!dir.exists(directory)) {
-      dir.create(directory)
-    }
-
-    paste0(directory, template_name)
+    save_name <- stylesheet
 
   }
 
