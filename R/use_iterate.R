@@ -6,7 +6,7 @@
 #' @md
 #' @export
 use_iterate <- function() {
-  use_template(
+  usethis::use_template(
     template = "iterate.R",
     data = list(Package = "", Version = ""),
     ignore = FALSE,

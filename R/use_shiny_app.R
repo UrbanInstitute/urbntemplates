@@ -7,7 +7,7 @@
 #' @md
 #' @export
 use_shiny_app <- function() {
-  use_template(
+  usethis::use_template(
     template = "app.R",
     data = list(Package = "", Version = ""),
     ignore = FALSE,

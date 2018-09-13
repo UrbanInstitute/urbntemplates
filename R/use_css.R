@@ -40,7 +40,7 @@ use_css <- function(stylesheet, directory = "www/") {
   }
 
   # add template to destination
-  use_template(
+  usethis::use_template(
     template = template_name,
     save_as = save_name,
     data = list(Package = "", Version = ""),
