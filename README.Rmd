@@ -11,6 +11,8 @@ output: github_document
 ## single doc functions
 
 * `use_css()`
+* `use_iterate()`
+* `use_revealjs()`
 * `use_shiny_app()`
 * `use_urbn_readme()`
 

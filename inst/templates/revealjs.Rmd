@@ -1,0 +1,39 @@
+---
+output:
+  revealjs::revealjs_presentation:
+    css: www/revealjs.css
+    incremental: TRUE
+    reveal_options:
+      slideNumber: TRUE
+      previewLinks: TRUE
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, echo = FALSE}
+library(knitr)
+
+opts_chunk$set(echo = FALSE)
+opts_chunk$set(message = FALSE)
+opts_chunk$set(warning = FALSE)
+```
+
+# Column 1
+
+Use `#` to create a new column of slides and `##` to create a new slide. 
+
+Markdown and R code work exactly the same way as with R Markdown. 
+
+## Slide 1
+
+## Slide 2
+
+It is easy to "iframe" websites into the slides with the following html:
+
+<iframe width="2000" height="600" src="https://ui-research.github.io/r-at-urban/intro-to-r.html"></iframe>
+
+*The iframe may not show in the preview, but it will show when opened in a web browser.*
+
+# Column 2
+
+## Slide 1

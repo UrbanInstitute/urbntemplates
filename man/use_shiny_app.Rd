@@ -7,5 +7,7 @@
 use_shiny_app()
 }
 \description{
-use_shiny_app
+\code{use_shiny_app} adds a template called app.R for creating R Shiny
+applications. There is no name argument because the Urban Institute Shiny
+server expects app.R.
 }
