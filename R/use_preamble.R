@@ -1,6 +1,6 @@
 #' use_preamble
 #'
-#' `use_preamble` adds a LaTeX preamble to the specified directory
+#' Adds a LaTeX preamble to the specified directory
 #'
 #' @param preamble Selection of preamble. Current options are `"fact_sheet"`.
 #' @param directory The directory where the template should be saved and opened.

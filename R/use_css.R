@@ -1,6 +1,6 @@
 #' use_css
 #'
-#' `use_css` adds a Cascading Style Sheet (CSS) to the specified directory
+#' Adds a Cascading Style Sheet (CSS) to the specified directory
 #'
 #' @param stylesheet Selection of stylesheet. Current options are `"shiny"`.
 #' @param directory The directory where the template should be saved and opened.

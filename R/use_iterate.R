@@ -1,7 +1,7 @@
 #' use_iterate
 #'
-#' `use_iterate` adds a template called iterate.R that is used for iterating
-#'   fact cheets across tibbles
+#' Adds a template called iterate.R that is used for iterating fact cheets
+#'   across tibbles.
 #'
 #' @param directory A character string for the directory where the template
 #'   should be saved.

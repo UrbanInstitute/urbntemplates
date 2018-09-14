@@ -14,5 +14,5 @@ The project directory is preferable for most projects. Use NULL to save the
 template to the project directory or working directory.}
 }
 \description{
-\code{use_preamble} adds a LaTeX preamble to the specified directory
+Adds a LaTeX preamble to the specified directory
 }

@@ -13,5 +13,5 @@ use_revealjs(name = "revealjs.Rmd", directory = NULL)
 should be saved.}
 }
 \description{
-use_revealjs
+Adds a template called revealjs.Rmd for creating slide shows with RevealJS.
 }

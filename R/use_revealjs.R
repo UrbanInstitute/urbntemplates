@@ -1,5 +1,7 @@
 #' use_revealjs
 #'
+#' Adds a template called revealjs.Rmd for creating slide shows with RevealJS.
+#'
 #' @param name A character string for the name of the created template.
 #' @param directory A character string for the directory where the template
 #'   should be saved.

@@ -13,5 +13,5 @@ and \code{"fact_sheet_pdf"}.}
 \item{open}{Open the newly created file for editing?}
 }
 \description{
-\code{use_git_ignore_urbn} adds a custom .gitignore to the top directory.
+Adds a custom .gitignore to the top directory.
 }

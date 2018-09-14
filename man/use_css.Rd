@@ -16,5 +16,5 @@ template to the project directory or working directory.}
 \item{open}{Open the newly created file for editing?}
 }
 \description{
-\code{use_css} adds a Cascading Style Sheet (CSS) to the specified directory
+Adds a Cascading Style Sheet (CSS) to the specified directory
 }

@@ -1,6 +1,6 @@
 #' use_git_ignore_urbn
 #'
-#' `use_git_ignore_urbn` adds a custom .gitignore to the top directory.
+#' Adds a custom .gitignore to the top directory.
 #'
 #' @param gitignore Selection of gitignore Current options are `"shiny"`,
 #'   and `"fact_sheet_pdf"`.
