@@ -9,7 +9,7 @@
 #'
 #' @md
 #' @export
-use_preamble <- function(preamble = "fact_sheet", directory = NULL) {
+use_preamble <- function(preamble = "fact_sheet", directory = NULL, open = FALSE) {
 
   # pick a preamble template
   template_name <- if (preamble %in% c("fact_sheet")) {
@@ -42,7 +42,7 @@ use_preamble <- function(preamble = "fact_sheet", directory = NULL) {
     save_as = save_name,
     data = list(Package = "", Version = ""),
     ignore = FALSE,
-    open = TRUE,
+    open = open,
     package = "urbntemplates"
   )
 

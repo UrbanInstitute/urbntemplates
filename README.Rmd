@@ -38,6 +38,7 @@ A sensible workflow is:
 ### construct functions
 
 * `construct_shiny_app()` 
+* `construct_pdf_fact_sheet()`
 
 ### use functions
 

@@ -4,7 +4,7 @@
 \alias{use_preamble}
 \title{use_preamble}
 \usage{
-use_preamble(preamble = "fact_sheet", directory = NULL)
+use_preamble(preamble = "fact_sheet", directory = NULL, open = FALSE)
 }
 \arguments{
 \item{preamble}{Selection of preamble. Current options are \code{"fact_sheet"}.}
