@@ -2,7 +2,8 @@
 #'
 #' `use_git_ignore_urbn` adds a custom .gitignore to the top directory.
 #'
-#' @param gitignore Selection of gitignore Current options are `"shiny"`.
+#' @param gitignore Selection of gitignore Current options are `"shiny"`,
+#'   and `"fact_sheet_pdf"`.
 #' @param open Open the newly created file for editing?
 #'
 #' @md
@@ -22,7 +23,7 @@ use_git_ignore_urbn <- function(gitignore = NULL, open = FALSE) {
   # pick a gitignore template
   template_name <- if (is.null(gitignore)) {
 
-  } else if (gitignore %in% c("shiny", "pdf_fact_sheet")) {
+  } else if (gitignore %in% c("shiny", "fact_sheet_pdf")) {
 
     # usethis::use_git_ignore()
 

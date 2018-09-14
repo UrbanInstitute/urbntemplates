@@ -1,4 +1,4 @@
-#' use_pdf_fact_sheet
+#' use_fact_sheet_pdf
 #'
 #' @param name A character string for the name of the created template. Be sure
 #'   to end the name with ".Rmd".
@@ -7,7 +7,7 @@
 #'
 #' @md
 #' @export
-use_pdf_fact_sheet <- function(name = "pdf_fact_sheet.Rmd", directory = NULL) {
+use_fact_sheet_pdf <- function(name = "fact_sheet_pdf.Rmd", directory = NULL) {
 
   if (!is.null(directory)) {
 
@@ -21,7 +21,7 @@ use_pdf_fact_sheet <- function(name = "pdf_fact_sheet.Rmd", directory = NULL) {
   }
 
   usethis::use_template(
-    template = "pdf_fact_sheet.Rmd",
+    template = "fact_sheet_pdf.Rmd",
     save_as = save_name,
     data = list(Package = "", Version = ""),
     ignore = FALSE,
