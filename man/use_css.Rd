@@ -4,7 +4,7 @@
 \alias{use_css}
 \title{use_css}
 \usage{
-use_css(stylesheet, directory = "www")
+use_css(stylesheet, directory = "www", open = FALSE)
 }
 \arguments{
 \item{stylesheet}{Selection of stylesheet. Current options are \code{"shiny"}.}
@@ -12,6 +12,8 @@ use_css(stylesheet, directory = "www")
 \item{directory}{The directory where the template should be saved and opened.
 The default "www" is preferable for most projects. Use NULL to save the
 template to the project directory or working directory.}
+
+\item{open}{Open the newly created file for editing?}
 }
 \description{
 \code{use_css} adds a Cascading Style Sheet (CSS) to the specified directory

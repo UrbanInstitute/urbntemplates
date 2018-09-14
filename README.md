@@ -19,7 +19,7 @@ Usage
 
 `start_project()` generates a new project with a .Rproj, README, and git at the specified location on a machine.
 
-`construct_*()` functions add multiple templates and documents to a project directory or subdirectory. The templates and documents are related in important ways. For example,
+`construct_*()` functions add multiple templates and documents to a project directory or subdirectory. The templates and documents are related in important ways. For example, `construct_shiny()` adds `app.R` and an R Shiny specific CSS.
 
 `use_*()` functions add individual templates and documents to a project directory or subdirectory.
 
@@ -35,7 +35,7 @@ A sensible workflow is:
 
 ### construct functions
 
-`construct_shiny_app()`
+-   `construct_shiny_app()`
 
 ### use functions
 

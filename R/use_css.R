@@ -6,10 +6,11 @@
 #' @param directory The directory where the template should be saved and opened.
 #'   The default "www" is preferable for most projects. Use NULL to save the
 #'   template to the project directory or working directory.
+#' @param open Open the newly created file for editing?
 #'
 #' @md
 #' @export
-use_css <- function(stylesheet, directory = "www") {
+use_css <- function(stylesheet, directory = "www", open = FALSE) {
 
   # pick a stylesheet template
   template_name <- if (stylesheet %in% c("shiny")) {
@@ -42,7 +43,7 @@ use_css <- function(stylesheet, directory = "www") {
     save_as = save_name,
     data = list(Package = "", Version = ""),
     ignore = FALSE,
-    open = TRUE,
+    open = open,
     package = "urbntemplates"
   )
 

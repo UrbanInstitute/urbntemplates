@@ -1,12 +1,13 @@
-#' use_revealjs
+#' use_pdf_fact_sheet
 #'
-#' @param name A character string for the name of the created template.
+#' @param name A character string for the name of the created template. Be sure
+#'   to end the name with ".Rmd".
 #' @param directory A character string for the directory where the template
 #'   should be saved.
 #'
 #' @md
 #' @export
-use_revealjs <- function(name = "revealjs.Rmd", directory = NULL) {
+use_pdf_fact_sheet <- function(name = "pdf_fact_sheet.Rmd", directory = NULL) {
 
   if (!is.null(directory)) {
 
@@ -20,7 +21,7 @@ use_revealjs <- function(name = "revealjs.Rmd", directory = NULL) {
   }
 
   usethis::use_template(
-    template = "revealjs.Rmd",
+    template = "pdf_fact_sheet.Rmd",
     save_as = save_name,
     data = list(Package = "", Version = ""),
     ignore = FALSE,
