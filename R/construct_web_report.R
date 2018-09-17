@@ -1,8 +1,7 @@
 #' construct_web_report
 #'
 #' Adds the necessary templates for making web reports at the Urban
-#'   Institute.Adds a .gitignore, pdf_fact_sheet template, LaTeX preamble, and
-#'   iteration script.
+#'   Institute.Adds a .gitignore, web report template, and stylesheet.
 #'
 #' @md
 #' @export

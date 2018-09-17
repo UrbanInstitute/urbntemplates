@@ -36,15 +36,24 @@ A sensible workflow is:
 ### construct functions
 
 -   `construct_shiny_app()`
+-   `construct_fact_sheet_html()`
+-   `construct_fact_sheet_pdf()`
+-   `construct_slide_show()`
+-   `construct_web_report()`
 
 ### use functions
 
+-   `use_content()`
 -   `use_css()`
+-   `use_fact_sheet_html()`
+-   `use_fact_sheet_pdf()`
+-   `use_git_ignore_urbn()`
 -   `use_iterate()`
 -   `use_preamble()`
 -   `use_revealjs()`
 -   `use_shiny_app()`
 -   `use_urbn_readme()`
+-   `use_web_report()`
 
 License
 -------

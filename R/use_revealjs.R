@@ -21,6 +21,12 @@ use_revealjs <- function(name = "revealjs.Rmd", directory = NULL) {
 
   }
 
+  if (!file.exists("www/images/urban-institute-logo.png")) {
+
+    use_content(content = "header image")
+
+  }
+
   usethis::use_template(
     template = "revealjs.Rmd",
     save_as = save_name,
