@@ -13,7 +13,7 @@
 use_css <- function(stylesheet, directory = "www", open = FALSE) {
 
   # pick a stylesheet template
-  template_name <- if (stylesheet %in% c("shiny")) {
+  template_name <- if (stylesheet %in% c("shiny", "web_report")) {
 
     paste0(stylesheet, ".css")
 

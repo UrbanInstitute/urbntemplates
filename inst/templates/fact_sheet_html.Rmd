@@ -1,0 +1,26 @@
+---
+title: ""
+author: ""
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+css: www/web_report.css
+output:
+  html_document:
+  code_folding: hide
+toc: TRUE
+toc_float: TRUE
+params:
+  state: "Alabama"
+---
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
+
+```{r rmarkdown-setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+options(knitr.kable.NA = "")
+```
+
+```{r load-packages}
+library(tidyverse)
+```

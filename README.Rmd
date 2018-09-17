@@ -38,11 +38,14 @@ A sensible workflow is:
 ### construct functions
 
 * `construct_shiny_app()` 
-* `construct_pdf_fact_sheet()`
+* `construct_fact_sheet_html()`
+* `construct_fact_sheet_pdf()`
 
 ### use functions
 
 * `use_css()`
+* `use_fact_sheet_html()`
+* `use_fact_sheet_pdf()`
 * `use_iterate()`
 * `use_preamble()`
 * `use_revealjs()`

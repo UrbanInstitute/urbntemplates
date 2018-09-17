@@ -1,0 +1,30 @@
+---
+title: ""
+author: ""
+date: "`r format(Sys.time(), '%B %d, %Y %H:%M')`"
+output:
+  html_document:
+  number_sections: true
+self_contained: TRUE
+code_folding: hide
+toc: TRUE
+toc_float: TRUE
+css: www/web_report.css
+editor_options:
+  chunk_output_type: console
+---
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
+
+![urban-logo](www/images/urban-institute-logo.png)
+
+```{r rmarkdown-setup}
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+```
+
+```{r setup, echo=FALSE}
+options(scipen = 999)
+
+library(tidyverse)
+```
