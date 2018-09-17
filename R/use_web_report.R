@@ -21,22 +21,11 @@ use_web_report <- function(name = "web_report.Rmd", directory = NULL) {
 
   }
 
-  if (!dir.exists("www")) {
-    dir.create("www")
-  }
+  if (!file.exists("www/images/urban-institute-logo.png")) {
 
-  if (!dir.exists("www/images")) {
-    dir.create("www/images")
-  }
+    use_content(content = "header image")
 
-  usethis::use_template(
-    template = "urban-institute-logo.png",
-    save_as = "www/images/urban-institute-logo.png",
-    data = list(Package = "", Version = ""),
-    ignore = FALSE,
-    open = FALSE,
-    package = "urbntemplates"
-  )
+  }
 
   usethis::use_template(
     template = "web_report.Rmd",
