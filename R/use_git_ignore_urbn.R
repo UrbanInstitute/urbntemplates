@@ -23,7 +23,7 @@ use_git_ignore_urbn <- function(gitignore = NULL, open = FALSE) {
   # pick a gitignore template
   template_name <- if (is.null(gitignore)) {
 
-  } else if (gitignore %in% c("shiny", "fact_sheet_html", "fact_sheet_pdf")) {
+  } else if (gitignore %in% c("shiny", "fact_sheet_html", "fact_sheet_pdf", "web_report")) {
 
     # usethis::use_git_ignore()
 

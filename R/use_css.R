@@ -33,7 +33,7 @@ use_css <- function(stylesheet, directory = "www", open = FALSE) {
 
   } else {
 
-    save_name <- stylesheet
+    save_name <- template_name
 
   }
 
