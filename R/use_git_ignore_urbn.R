@@ -3,7 +3,7 @@
 #' Adds a custom .gitignore to the top directory.
 #'
 #' @param gitignore Selection of gitignore Current options are `"shiny"`,
-#'   and `"fact_sheet_pdf"`.
+#'   `"fact_sheet_pdf"`, `"fact_sheet_pdf"`, and `"web_report"`.
 #' @param open Open the newly created file for editing?
 #'
 #' @md
@@ -29,7 +29,7 @@ use_git_ignore_urbn <- function(gitignore = NULL, open = FALSE) {
 
   } else {
 
-    stop("Invalid 'gitignore' argument. Valid stylesheets are: ",
+    stop("Invalid 'gitignore' argument. Valid gitignore options are: ",
          "shiny",
          call. = FALSE)
 
