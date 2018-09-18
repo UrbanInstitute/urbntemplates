@@ -8,5 +8,6 @@ construct_web_report()
 }
 \description{
 Adds the necessary templates for making web reports at the Urban
-Institute.Adds a .gitignore, web report template, and stylesheet.
+Institute. Adds a .gitignore, web report template, stylesheet, and
+instructions.
 }
