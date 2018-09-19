@@ -4,8 +4,11 @@
 \alias{use_readme_urbn}
 \title{use_readme_urbn}
 \usage{
-use_readme_urbn()
+use_readme_urbn(name = "README")
+}
+\arguments{
+\item{name}{Name of analysis to put at top of README}
 }
 \description{
-use_readme_urbn
+Adds an Urban Institute specific README.
 }
