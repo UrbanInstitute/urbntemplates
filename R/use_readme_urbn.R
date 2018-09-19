@@ -1,8 +1,8 @@
-#' use_urbn_readme
+#' use_readme_urbn
 #'
 #' @md
 #' @export
-use_urbn_readme <- function() {
+use_readme_urbn <- function() {
   usethis::use_template(
     template = "README.md",
     data = list(Package = "", Version = ""),

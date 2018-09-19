@@ -2,15 +2,15 @@
 urbntemplates
 =============
 
-`library(urbntemplates)` contains tools and templates for managing analysis workflows at the Urban Institute.
+`library(urbntemplates)` contains tools and templates for managing analysis workflows at the Urban Institute. It heavily relies on functions and functionality from [usethis](https://github.com/r-lib/usethis).
 
 Installation
 ------------
 
-You can install the latest version of `urbntemplate` from GitHub:
+You can install the latest version of `urbntemplates` from GitHub:
 
     # install.packages("devtools")
-    devtools::install_github("UrbanInstitute/urbnmapr")
+    devtools::install_github("UrbanInstitute/urbntemplates")
 
 Usage
 -----
@@ -19,7 +19,7 @@ Usage
 
 `start_project()` generates a new project with a .Rproj, README, and git at the specified location on a machine.
 
-`construct_*()` functions add multiple templates and documents to a project directory or subdirectory. The templates and documents are related in important ways. For example, `construct_shiny()` adds `app.R` and an R Shiny specific CSS.
+`construct_*()` functions add multiple, related templates and documents to a project directory or subdirectory. The templates and documents are related in important ways. For example, `construct_shiny()` adds `app.R` and an R Shiny specific CSS. It also adds instructions for using the selected template.
 
 `use_*()` functions add individual templates and documents to a project directory or subdirectory.
 
@@ -48,11 +48,12 @@ A sensible workflow is:
 -   `use_fact_sheet_html()`
 -   `use_fact_sheet_pdf()`
 -   `use_git_ignore_urbn()`
+-   `use_instructions()`
 -   `use_iterate()`
 -   `use_preamble()`
 -   `use_revealjs()`
 -   `use_shiny_app()`
--   `use_urbn_readme()`
+-   `use_readme_readme()`
 -   `use_web_report()`
 
 License
