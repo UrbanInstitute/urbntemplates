@@ -16,7 +16,7 @@ editor_options:
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
 
-![urban-logo](www/images/urban-institute-logo.png)
+![](www/images/urban-institute-logo.png)
 
 ```{r rmarkdown-setup}
 knitr::opts_chunk$set(warning = FALSE)
