@@ -49,16 +49,18 @@ vignettes/*.pdf
   usethis::use_git_ignore(ignore)
 
   # pick a gitignore template
-  template_name <- if (is.null(gitignore)) {
+  if (is.null(gitignore)) {
+
+    # nothing
 
   } else if (gitignore == "fact_sheet_pdf") {
 
     usethis::use_git_ignore("*.aux")
     usethis::use_git_ignore("*.out")
 
-  }else if (gitignore %in% c("shiny", "fact_sheet_html", "web_report")) {
+  } else if (gitignore %in% c("shiny", "fact_sheet_html", "web_report")) {
 
-    # usethis::use_git_ignore()
+    # nothing
 
   } else {
 
