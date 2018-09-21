@@ -15,7 +15,7 @@ start_project <- function(name, directory = getwd(), readme = TRUE, gitignore = 
   usethis::create_project(paste0(directory, "/", name))
 
   if (readme == TRUE) {
-    use_readme_urbn(name = name)
+    use_readme_urbn(name = name, open = FALSE)
   }
 
   if (gitignore == TRUE) {

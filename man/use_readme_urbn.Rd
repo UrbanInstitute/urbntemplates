@@ -4,7 +4,7 @@
 \alias{use_readme_urbn}
 \title{use_readme_urbn}
 \usage{
-use_readme_urbn(name = "README")
+use_readme_urbn(name = "README", open = TRUE)
 }
 \arguments{
 \item{name}{Name of analysis to put at top of README}
