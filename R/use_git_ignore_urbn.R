@@ -2,8 +2,9 @@
 #'
 #' Adds a custom .gitignore to the top directory.
 #'
-#' @param gitignore Selection of gitignore Current options are `"shiny"`,
-#'   `"fact_sheet_pdf"`, `"fact_sheet_pdf"`, and `"web_report"`.
+#' @param gitignore Selection of .gitignore. Current options are `"shiny"`,
+#'   `"fact_sheet_pdf"`, `"fact_sheet_pdf"`, and `"web_report"`. NULL adds a
+#'   basic .gitignore for R.
 #' @param open Open the newly created file for editing?
 #'
 #' @md

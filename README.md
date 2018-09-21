@@ -2,6 +2,8 @@
 urbntemplates
 =============
 
+**NOTE:** This project is still under active development.
+
 `library(urbntemplates)` contains tools and templates for managing analysis workflows at the Urban Institute. It heavily relies on functions and functionality from [usethis](https://github.com/r-lib/usethis).
 
 Installation
@@ -17,16 +19,16 @@ Usage
 
 `library(urbntemplates)` contains three families of functions:
 
-`start_project()` generates a new project with a .Rproj, README, and git at the specified location on a machine.
+`start_project()` generates a new project with a .Rproj, README, and .gitignore at the specified location on a machine.
 
-`construct_*()` functions add multiple, related templates and documents to a project directory or subdirectory. The templates and documents are related in important ways. For example, `construct_shiny()` adds `app.R` and an R Shiny specific CSS. It also adds instructions for using the selected template.
+`construct_*()` functions add multiple, related templates and documents to a project directory or sub-directory. The templates and documents are related in important ways. For example, `construct_shiny()` adds `app.R` and an R Shiny specific CSS. It also adds instructions for using the selected template.
 
-`use_*()` functions add individual templates and documents to a project directory or subdirectory.
+`use_*()` functions add individual templates and documents to a project directory or sub directory.
 
 A sensible workflow is:
 
-1.  Start a new project with `start_project()`.
-2.  Add the nesessary documents for a part of a project, like a Shiny application, with a `construct_*()` function.
+1.  Start a new project and create a .Rproj by submitting `urbntemplates::start_project()`. This will create and open a new .Rproj.
+2.  Inside the .Rproj, add the necessary documents for a part of a project, like a Shiny application, with a `construct_*()` function.
 3.  Add any desired remaining templates with `use_*()` functions.
 
 ### start function
@@ -64,4 +66,4 @@ Code released under the GNU General Public License v3.0.
 Code of conduct
 ---------------
 
-Please note that the 'urbntemplates' project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Please note that the "urbntemplates" project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.

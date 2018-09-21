@@ -7,8 +7,9 @@
 use_git_ignore_urbn(gitignore = NULL, open = FALSE)
 }
 \arguments{
-\item{gitignore}{Selection of gitignore Current options are \code{"shiny"},
-\code{"fact_sheet_pdf"}, \code{"fact_sheet_pdf"}, and \code{"web_report"}.}
+\item{gitignore}{Selection of .gitignore. Current options are \code{"shiny"},
+\code{"fact_sheet_pdf"}, \code{"fact_sheet_pdf"}, and \code{"web_report"}. NULL adds a
+basic .gitignore for R.}
 
 \item{open}{Open the newly created file for editing?}
 }
