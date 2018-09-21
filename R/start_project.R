@@ -19,6 +19,6 @@ start_project <- function(name, directory = getwd(), readme = TRUE, gitignore = 
   }
 
   if (gitignore == TRUE) {
-    use_git_ignore_urbn(gitignore = NULL, open = FALSE)
+    use_git_ignore_urbn(gitignore = "R", open = FALSE)
   }
 }
