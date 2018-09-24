@@ -7,7 +7,7 @@
 construct_fact_sheet_html()
 }
 \description{
-Adds the necessary templates for making PDF fact sheets at the Urban
-Institute.Adds a .gitignore, pdf_fact_sheet template, LaTeX preamble, and
-iteration script.
+Adds the necessary templates for making html fact sheets at the Urban
+Institute. Adds a .gitignore, html fact sheet template, CSS, iteration
+script, and instructions.
 }

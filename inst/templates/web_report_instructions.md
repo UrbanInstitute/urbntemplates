@@ -1,7 +1,16 @@
 # Instructions
 ## Web report
 
-`template.Rmd` and its associated files create a branded .html document that is perfect for storing and sharing results locally, from peer to peer, and on the web.
+## Included files and documents
+
+* web_report.Rmd
+* .gitignore
+* www/web_report.css
+* iterate.R
+
+## Adding content
+
+`web_report.Rmd` and its associated files create a branded .html document that is perfect for storing and sharing results locally, from peer to peer, and on the web.
 
 Web reports can contain text formatted with Markdown, analytic code, and code output such as tables and plots. Code can be included in "code chunks". Code chunks look like this:
 
@@ -22,5 +31,3 @@ Tabbed material can be added and is useful for including lots of related materia
 Web reports can be hosted online for free using GitHub pages. It is simplest to rename template.Rmd to index.Rmd and then knit the document into index.html. Add index.html to the top directory or a new directory called docs/, and then push the content to the master repository on GitHub. Go to settings and follow the prompts under GitHub pages to set up the web hosting. 
 
 It is typically useful to copy the generated link to the content and paste it in the website field at the top of the front page of the repository. 
-
-

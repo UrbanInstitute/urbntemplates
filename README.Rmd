@@ -6,6 +6,8 @@ output: github_document
 
 **NOTE:** This project is still under active development. 
 
+**NOTE:** All publications still need to go throught the normal COMM process. 
+
 `library(urbntemplates)` contains tools and templates for managing analysis workflows at the Urban Institute. It heavily relies on functions and functionality from [usethis](https://github.com/r-lib/usethis).
 
 ## Installation

@@ -11,7 +11,7 @@
 #'
 #' @md
 #' @export
-use_fact_sheet_pdf <- function(name = "fact_sheet_html.Rmd", directory = NULL) {
+use_fact_sheet_html <- function(name = "fact_sheet_html.Rmd", directory = NULL) {
 
   if (!is.null(directory)) {
 

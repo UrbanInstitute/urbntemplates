@@ -8,5 +8,5 @@ construct_shiny()
 }
 \description{
 Adds the necessary templates for making a Shiny application. Adds a .gitignore,
-app.R, and Urban Institute R Shiny CSS.
+app.R, Urban Institute R Shiny CSS, and instructions.
 }

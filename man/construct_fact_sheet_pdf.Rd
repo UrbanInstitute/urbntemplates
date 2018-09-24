@@ -8,6 +8,6 @@ construct_fact_sheet_pdf()
 }
 \description{
 Adds the necessary templates for making PDF fact sheets at the Urban
-Institute.Adds a .gitignore, pdf_fact_sheet template, LaTeX preamble, and
-iteration script.
+Institute. Adds a .gitignore, pdf_fact_sheet template, LaTeX preamble,
+iteration script, and instructions.
 }

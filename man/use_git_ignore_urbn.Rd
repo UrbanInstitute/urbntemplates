@@ -4,12 +4,11 @@
 \alias{use_git_ignore_urbn}
 \title{use_git_ignore_urbn}
 \usage{
-use_git_ignore_urbn(gitignore = NULL, open = FALSE)
+use_git_ignore_urbn(gitignore = "R", open = FALSE)
 }
 \arguments{
-\item{gitignore}{Selection of .gitignore. Current options are \code{"shiny"},
-\code{"fact_sheet_pdf"}, \code{"fact_sheet_pdf"}, and \code{"web_report"}. NULL adds a
-basic .gitignore for R.}
+\item{gitignore}{Selection of .gitignore. Current options are \code{"R"}, \code{"shiny"},
+\code{"fact_sheet_pdf"}, \code{"fact_sheet_pdf"}, and \code{"web_report"}.}
 
 \item{open}{Open the newly created file for editing?}
 }
