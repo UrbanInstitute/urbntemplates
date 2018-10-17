@@ -31,7 +31,11 @@ A sensible workflow is:
 
 1.  Start a new project and create a .Rproj by submitting `urbntemplates::start_project()`. This will create and open a new .Rproj.
 2.  Inside the .Rproj, add the necessary documents for a part of a project, like a Shiny application, with a `construct_*()` function.
-3.  Add any desired remaining templates with `use_*()` functions.
+3.  Add any desired remaining templates or documents with `use_*()` functions.
+
+Note:
+
+`construct_*()` functions are useful on their own. If you have an existing project, just use `construct_*()` to add all of the necessary templates and documents for creating a product like a branded slide show or an R Markdown web report.
 
 ### start function
 

@@ -1,0 +1,81 @@
+.reveal {
+  font-family: Lato;
+}
+
+.h2 {
+  text-align: left;
+}
+
+/* remove bounding box from images */
+.reveal section img {
+  border: 0 solid #000;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+}
+
+#htmlshortcut {
+  text-align: left;
+}
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
+
+
+
+/* code chunks */
+.reveal pre {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.reveal code {
+  font-family: monospace;
+  font-size: 16px;
+  z-index:-10;
+  border-style: none;
+  padding: 0;
+}
+
+/* image styles */
+img[alt=ledecky] {
+  height: 500px;
+}
+
+img[alt=hadley] {
+  height: 350px;
+}
+
+img[alt=arrangement] {
+  height: 500px;
+}
+
+img[alt=houston] {
+  height: 450px;
+}
+
+img[alt=stop] {
+  height: 350px;
+}
+
+img[alt=frontier] {
+  height: 500px;
+}
+
+.twitter-tweet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -7,7 +7,8 @@
 use_css(stylesheet, directory = "www", open = FALSE)
 }
 \arguments{
-\item{stylesheet}{Selection of stylesheet. Current options are \code{"shiny"}.}
+\item{stylesheet}{Selection of stylesheet. Current options are \code{"shiny"},
+\code{"web_report"}, and \code{"revealjs"}.}
 
 \item{directory}{The directory where the template should be saved and opened.
 The default "www" is preferable for most projects. Use NULL to save the
