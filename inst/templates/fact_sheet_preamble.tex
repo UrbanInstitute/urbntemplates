@@ -14,6 +14,9 @@
 \usepackage{tabu}
 \usepackage{threeparttable}
 \usepackage[normalem]{ulem}
+\usepackage[export]{adjustbox}  % enables two column images at the top
+\usepackage{makecell}           % for library(kableExtra)
+%\usepackage{tabularx}           % for library(kableExtra)
 
 % set font encoding for PDFLaTeX or XeLaTeX
 \usepackage[utf8]{inputenc}   % sets document encoding to utf8
@@ -42,6 +45,34 @@
 \usepackage{parskip}
 \setlength{\parskip}{0.1in}               % set paragraph spacing
 
+% urban institute logo
+\newcommand{\urbnlogo}[0]{
+  \begin{figure}
+    \hspace{-0.12in}
+    \includegraphics[width=1.5in]{design/urban_grid_blue_white.jpg}
+    \label{fig:boat1}
+  \end{figure}
+}
+
+% urban institute logo and fund logo
+\newcommand{\urbnlogofunderlogo}[1]{
+  \begin{figure}
+  \centering
+  \begin{minipage}{.5\textwidth}
+    \centering
+    \hspace{-0.12in}
+    \includegraphics[width=1.5in,left]{design/urban_grid_blue_white.jpg}
+    \label{fig:test1}
+  \end{minipage}%
+  \begin{minipage}{.5\textwidth}
+    \centering
+    \hspace{0.12in}
+    Funded by:
+    \includegraphics[width=1.5in,right]{#1}
+    \label{fig:test2}
+  \end{minipage}
+  \end{figure}
+}
 
 % contact information
 \newcommand{\contactinfo}[0]{
@@ -51,9 +82,9 @@
       node[anchor=south west, minimum height=0.5in, minimum width=8.5in, text width=8in] at ($(current page.south west) + (0.75in,0.13in)$)
       {\color{gray}Urban Institute \space
       \color{urbnblue}$\blacksquare$ \space
-      \color{gray}2100 M Street NW \space
+      \color{gray}500 L'Enfant Plaza \space
       \color{urbnblue}$\blacksquare$ \space
-      \color{gray}Washington, DC 20037 \space
+      \color{gray}Washington, DC 20024 \space
       \color{urbnblue}$\blacksquare$ \space
       \color{gray}202.833.7200 \space
       \color{urbnblue}$\blacksquare$ \space
@@ -114,6 +145,21 @@
   \textbf{\footnotesize{#1}} \break
 }
 
+% table label
+\newcommand{\urbntablenumber}[1]{
+  \textcolor{urbnblue}{\tiny{\\} \normalsize{TABLE #1 \\}}
+}
+
+% table title
+\newcommand{\urbntabletitle}[1]{
+  \textbf{\normalsize{#1} \\}
+}
+
+% table sub title
+\newcommand{\urbntablesubtitle}[1]{
+  \textit{\normalsize{#1} \\}
+}
+
 % bullet points
 \renewcommand{\labelitemi}{\color{urbnblue}\tiny$\blacksquare$}   % blue square
 \renewcommand{\labelitemii}{\color{urbnblue}\tiny$\blacksquare$}  % blue square
@@ -153,3 +199,9 @@
       };
       \end{tikzpicture}
 }
+
+% eliminates top border line for the table
+\def\toprule{}
+
+% sets midline at 1pt
+\setlength{\lightrulewidth}{1pt}
