@@ -24,6 +24,12 @@ use_fact_sheet_pdf <- function(name = "fact_sheet_pdf.Rmd", directory = NULL) {
 
   }
 
+  if (!file.exists("design/urban_grid_blue_white.jpg")) {
+
+    use_content(content = "urban logo")
+
+  }
+
   usethis::use_template(
     template = "fact_sheet_pdf.Rmd",
     save_as = save_name,

@@ -2,8 +2,8 @@
 #'
 #' Adds instructions for constructed templates.
 #'
-#' @param name A character string for the name of the created template. Current
-#'   options are `"fact_sheet_pdf"`, `"fact_sheet_html"`, `"revealks"`,
+#' @param instructions A character string for the name of the created template.
+#'   Current options are `"fact_sheet_pdf"`, `"fact_sheet_html"`, `"revealks"`,
 #'   `"shiny"`, and `"web_report"`.
 #'
 #' @md

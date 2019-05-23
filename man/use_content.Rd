@@ -7,8 +7,8 @@
 use_content(content)
 }
 \arguments{
-\item{content}{A character string for the name of the content. The only
-only option is "header image".}
+\item{content}{A character string for the name of the content. The
+only options are "header image" and "urban logo".}
 }
 \description{
 Adds content to the specified directory.

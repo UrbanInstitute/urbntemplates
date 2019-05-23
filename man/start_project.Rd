@@ -4,17 +4,18 @@
 \alias{start_project}
 \title{start_project}
 \usage{
-start_project(name, directory = getwd(), readme = TRUE, gitignore = TRUE)
+start_project(name, directory = getwd(), readme = TRUE,
+  gitignore = TRUE)
 }
 \arguments{
 \item{name}{Name of the project and the directory.}
 
+\item{directory}{A path from the home directory of the computer to the new
+directory you want created.}
+
 \item{readme}{Add an Urban Institute README to the project}
 
 \item{gitignore}{Add an R .gitignore to the project}
-
-\item{path}{A path from the home directory of the computer to the new
-directory you want created.}
 }
 \description{
 Creates and opens a new project and project dirctory with useful files.

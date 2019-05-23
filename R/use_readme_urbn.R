@@ -3,6 +3,7 @@
 #' Adds an Urban Institute specific README.
 #'
 #' @param name Name of analysis to put at top of README
+#' @param open Boolean for whether or not to open the instructions
 #'
 #' @md
 #' @export

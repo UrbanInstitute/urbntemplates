@@ -2,8 +2,8 @@
 #'
 #' Adds content to the specified directory.
 #'
-#' @param content A character string for the name of the content. The only
-#'   only option is "header image".
+#' @param content A character string for the name of the content. The
+#'   only options are "header image" and "urban logo".
 #'
 #' @md
 #' @export
@@ -23,7 +23,19 @@ use_content <- function(content) {
 
     magick::image_write(img_data, "www/images/urban-institute-logo.png")
 
-  }  else {
+  }  else if (content == "urban logo") {
+
+    if (!dir.exists("design")) {
+
+      dir.create("design")
+
+    }
+
+    img_data <- magick::image_read(system.file("content/urban_grid_blue_white.jpg", package = "urbntemplates"))
+
+    magick::image_write(img_data, "design/urban_grid_blue_white.jpg")
+
+  } else {
 
     stop("Invalid 'preamble' argument. Valid stylesheets are: ",
          "fact_sheet",

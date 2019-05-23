@@ -45,6 +45,7 @@ vignettes/*.pdf
 
     usethis::use_git_ignore("*.aux")
     usethis::use_git_ignore("*.out")
+    usethis::use_git_ignore("*.log")
     usethis::use_git_ignore("# TeX system files")
     usethis::use_git_ignore(ignore)
 

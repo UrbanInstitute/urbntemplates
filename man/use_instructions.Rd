@@ -7,8 +7,8 @@
 use_instructions(instructions)
 }
 \arguments{
-\item{name}{A character string for the name of the created template. Current
-options are \code{"fact_sheet_pdf"}, \code{"fact_sheet_html"}, \code{"revealks"},
+\item{instructions}{A character string for the name of the created template.
+Current options are \code{"fact_sheet_pdf"}, \code{"fact_sheet_html"}, \code{"revealks"},
 \code{"shiny"}, and \code{"web_report"}.}
 }
 \description{

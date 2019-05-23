@@ -6,6 +6,7 @@
 #' @param directory The directory where the template should be saved and opened.
 #'   The project directory is preferable for most projects. Use NULL to save the
 #'   template to the project directory or working directory.
+#' @param open Boolean for whether or not to open the instructions
 #'
 #' @md
 #' @export
