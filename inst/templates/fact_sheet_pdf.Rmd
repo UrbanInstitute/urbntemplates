@@ -1,6 +1,6 @@
 ---
 header-includes:
-- \input{preamble.tex}
+- \input{fact_sheet_preamble.tex}
 fontsize: 10pt
 output: pdf_document
 sansfont: Lato
