@@ -10,6 +10,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+</style>
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
+
 ```{r setup, echo = FALSE}
 library(knitr)
 
