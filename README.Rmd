@@ -45,7 +45,7 @@ Note:
 
 ### construct functions
 
-* `construct_shiny_app()` 
+* `construct_shiny()` 
 * `construct_fact_sheet_html()`
 * `construct_fact_sheet_pdf()`
 * `construct_slide_show()`
