@@ -4,14 +4,21 @@
 #'   Institute. Adds a .gitignore, html fact sheet template, CSS, iteration
 #'   script, and instructions.
 #'
+#' @inheritParams use_fact_sheet_html
+#' @param instructions Should ? Defaults to `TRUE`.
+#'
 #' @md
 #' @export
-construct_fact_sheet_html <- function() {
+construct_fact_sheet_html <- function(name = "fact_sheet_html.Rmd",
+                                      directory = NULL,
+                                      instructions = TRUE) {
 
   use_git_ignore_urbn(gitignore = "fact_sheet_html", open = FALSE)
-  use_fact_sheet_html(name = "fact_sheet_html.Rmd", directory = NULL)
+  use_fact_sheet_html(name = name, directory = directory)
   use_css(stylesheet = "web_report", directory = "www", open = FALSE)
   use_iterate()
-  use_instructions(instructions = "fact_sheet_html")
+  if (instructions) {
+    use_instructions(instructions = "fact_sheet_html")
+  }
 
 }
