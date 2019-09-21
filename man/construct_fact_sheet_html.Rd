@@ -4,7 +4,17 @@
 \alias{construct_fact_sheet_html}
 \title{construct_fact_sheet_html}
 \usage{
-construct_fact_sheet_html()
+construct_fact_sheet_html(name = "fact_sheet_html.Rmd",
+  directory = NULL, instructions = TRUE)
+}
+\arguments{
+\item{name}{A character string for the name of the created template. Be sure
+to end the name with ".Rmd".}
+
+\item{directory}{A character string for the directory where the template
+should be saved.}
+
+\item{instructions}{Should ? Defaults to \code{TRUE}.}
 }
 \description{
 Adds the necessary templates for making html fact sheets at the Urban
