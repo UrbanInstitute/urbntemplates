@@ -16,7 +16,7 @@ construct_fact_sheet_html <- function(name = "fact_sheet_html.Rmd",
   use_git_ignore_urbn(gitignore = "fact_sheet_html", open = FALSE)
   use_fact_sheet_html(name = name, directory = directory)
   use_css(stylesheet = "web_report", directory = "www", open = FALSE)
-  use_iterate()
+  use_iterate(directory = directory)
   if (instructions) {
     use_instructions(instructions = "fact_sheet_html")
   }

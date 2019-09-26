@@ -15,7 +15,7 @@ construct_fact_sheet_pdf <- function(name = "fact_sheet_pdf.Rmd",
   use_git_ignore_urbn(gitignore = "fact_sheet_pdf", open = FALSE)
   use_fact_sheet_pdf(name = name, directory = directory)
   use_preamble(preamble = "fact_sheet", directory = NULL, open = FALSE)
-  use_iterate()
+  use_iterate(directory = directory)
   if (instructions) {
     use_instructions(instructions = "fact_sheet_pdf")
   }
