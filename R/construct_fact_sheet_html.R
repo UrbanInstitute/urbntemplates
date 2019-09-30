@@ -5,7 +5,8 @@
 #'   script, and instructions.
 #'
 #' @inheritParams use_fact_sheet_html
-#' @param instructions Should ? Defaults to `TRUE`.
+#' @param instructions Should a markdown of helpful instructions be included?
+#'   Defaults to `TRUE`.
 #'
 #' @md
 #' @export

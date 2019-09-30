@@ -14,7 +14,8 @@ to end the name with ".Rmd".}
 \item{directory}{A character string for the directory where the template
 should be saved.}
 
-\item{instructions}{Should ? Defaults to \code{TRUE}.}
+\item{instructions}{Should a markdown of helpful instructions be included?
+Defaults to \code{TRUE}.}
 }
 \description{
 Adds the necessary templates for making web reports at the Urban
