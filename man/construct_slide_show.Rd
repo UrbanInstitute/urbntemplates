@@ -4,7 +4,18 @@
 \alias{construct_slide_show}
 \title{construct_slide_show}
 \usage{
-construct_slide_show()
+construct_slide_show(name = "revealjs.Rmd", directory = NULL,
+  instructions = TRUE)
+}
+\arguments{
+\item{name}{A character string for the name of the created template. Be sure
+to end the name with ".Rmd".}
+
+\item{directory}{A character string for the directory where the template
+should be saved.}
+
+\item{instructions}{Should a markdown of helpful instructions be included?
+Defaults to \code{TRUE}.}
 }
 \description{
 Adds the necessary templates for making slide shows at the Urban

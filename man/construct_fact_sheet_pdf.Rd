@@ -4,7 +4,18 @@
 \alias{construct_fact_sheet_pdf}
 \title{construct_fact_sheet_pdf}
 \usage{
-construct_fact_sheet_pdf()
+construct_fact_sheet_pdf(name = "fact_sheet_pdf.Rmd", directory = NULL,
+  instructions = TRUE)
+}
+\arguments{
+\item{name}{A character string for the name of the created template. Be sure
+to end the name with ".Rmd".}
+
+\item{directory}{A character string for the directory where the template
+should be saved.}
+
+\item{instructions}{Should a markdown of helpful instructions be included?
+Defaults to \code{TRUE}.}
 }
 \description{
 Adds the necessary templates for making PDF fact sheets at the Urban
