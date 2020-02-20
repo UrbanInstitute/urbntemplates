@@ -4,8 +4,11 @@
 \alias{construct_slide_show}
 \title{construct_slide_show}
 \usage{
-construct_slide_show(name = "revealjs.Rmd", directory = NULL,
-  instructions = TRUE)
+construct_slide_show(
+  name = "revealjs.Rmd",
+  directory = NULL,
+  instructions = TRUE
+)
 }
 \arguments{
 \item{name}{A character string for the name of the created template. Be sure

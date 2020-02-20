@@ -4,8 +4,11 @@
 \alias{construct_fact_sheet_pdf}
 \title{construct_fact_sheet_pdf}
 \usage{
-construct_fact_sheet_pdf(name = "fact_sheet_pdf.Rmd", directory = NULL,
-  instructions = TRUE)
+construct_fact_sheet_pdf(
+  name = "fact_sheet_pdf.Rmd",
+  directory = NULL,
+  instructions = TRUE
+)
 }
 \arguments{
 \item{name}{A character string for the name of the created template. Be sure
