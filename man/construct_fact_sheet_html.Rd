@@ -4,8 +4,11 @@
 \alias{construct_fact_sheet_html}
 \title{construct_fact_sheet_html}
 \usage{
-construct_fact_sheet_html(name = "fact_sheet_html.Rmd",
-  directory = NULL, instructions = TRUE)
+construct_fact_sheet_html(
+  name = "fact_sheet_html.Rmd",
+  directory = NULL,
+  instructions = TRUE
+)
 }
 \arguments{
 \item{name}{A character string for the name of the created template. Be sure

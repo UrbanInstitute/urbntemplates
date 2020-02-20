@@ -4,8 +4,7 @@
 \alias{start_project}
 \title{start_project}
 \usage{
-start_project(name, directory = getwd(), readme = TRUE,
-  gitignore = TRUE)
+start_project(name, directory = getwd(), readme = TRUE, gitignore = TRUE)
 }
 \arguments{
 \item{name}{Name of the project and the directory.}

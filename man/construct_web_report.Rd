@@ -4,8 +4,11 @@
 \alias{construct_web_report}
 \title{construct_web_report}
 \usage{
-construct_web_report(name = "web_report.Rmd", directory = NULL,
-  instructions = TRUE)
+construct_web_report(
+  name = "web_report.Rmd",
+  directory = NULL,
+  instructions = TRUE
+)
 }
 \arguments{
 \item{name}{A character string for the name of the created template. Be sure
