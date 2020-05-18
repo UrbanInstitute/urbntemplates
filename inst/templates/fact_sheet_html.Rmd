@@ -2,7 +2,7 @@
 title: ""
 author: ""
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-css: www/web_report.css
+css: !expr here::here("www", "web_report.css")
 output:
   html_document:
   code_folding: hide

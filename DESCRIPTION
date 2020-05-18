@@ -8,7 +8,8 @@ Depends:
     R (>= 3.4.0)
 Imports:
     magick,
-    usethis
+    usethis,
+    here
 Suggests:
     tidyverse,
     urbnthemes,
