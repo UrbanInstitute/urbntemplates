@@ -1,7 +1,7 @@
 ---
 output:
   revealjs::revealjs_presentation:
-    css: www/revealjs.css
+    css: !expr here::here("www", "revealjs.css")
     incremental: TRUE
     reveal_options:
       slideNumber: TRUE

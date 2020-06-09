@@ -9,7 +9,7 @@ output:
     code_folding: hide
     toc: TRUE
     toc_float: TRUE
-    css: www/web_report.css
+    css: !expr here::here("www", "web_report.css")
     editor_options:
       chunk_output_type: console
 ---
