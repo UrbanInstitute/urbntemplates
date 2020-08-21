@@ -20,7 +20,7 @@ output:
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
 
-![](www/images/urban-institute-logo.png)
+`r knitr::include_graphics(here::here("www", "images", "urban-institute-logo.png"))`
 
 # Document title
 
