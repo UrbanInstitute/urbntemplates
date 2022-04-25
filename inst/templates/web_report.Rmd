@@ -4,14 +4,16 @@ author: ""
 date: "`r format(Sys.time(), '%B %d, %Y %H:%M')`"
 output:
   html_document:
-    number_sections: true
+    number_sections: TRUE
     self_contained: TRUE
     code_folding: hide
     toc: TRUE
     toc_float: TRUE
+    mathjax: null
+    df_print: paged    
     css: !expr here::here("www", "web_report.css")
-    editor_options:
-      chunk_output_type: console
+editor_options:
+  chunk_output_type: console
 ---
 
 <style>
@@ -20,7 +22,11 @@ output:
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
 
-`r knitr::include_graphics(here::here("www", "images", "urban-institute-logo.png"))`
+```{r header-image, fig.width = 5.14, fig.height = 1.46, echo = FALSE, units = "in"}
+# All defaults
+knitr::include_graphics(here::here("www", "images", "urban-institute-logo.png"))
+
+```
 
 # Document title
 

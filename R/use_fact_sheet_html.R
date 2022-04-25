@@ -24,6 +24,12 @@ use_fact_sheet_html <- function(name = "fact_sheet_html.Rmd", directory = NULL) 
 
   }
 
+  if (!file.exists("www/images/urban-institute-logo.png")) {
+
+    use_content(content = "header image")
+
+  }
+
   usethis::use_template(
     template = "fact_sheet_html.Rmd",
     save_as = save_name,
