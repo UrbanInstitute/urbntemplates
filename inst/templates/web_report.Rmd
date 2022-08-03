@@ -22,11 +22,12 @@ editor_options:
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato" />
 
-```{r header-image, fig.width = 5.14, fig.height = 1.46, echo = FALSE, units = "in"}
-# All defaults
-knitr::include_graphics(here::here("www", "images", "urban-institute-logo.png"))
-
-```
+<script>
+   $(document).ready(function() {
+     $head = $('#header');
+     $head.prepend('<img src=\"www/images/urban-institute-logo.png\" style=\"float: top;width: 325px;\"/>')
+   });
+</script>
 
 # Document title
 
